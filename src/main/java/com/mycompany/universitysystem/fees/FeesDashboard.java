@@ -1,6 +1,5 @@
 package com.mycompany.universitysystem.fees;
 
-import com.mycompany.universitysystem.admin.ManageFees;
 import com.mycompany.universitysystem.fees.FeesService;
 
 import javax.swing.*;
@@ -34,7 +33,6 @@ public class FeesDashboard extends JFrame {
         add(viewPaidBtn);
 
         // 1️⃣ Add or update fee record
-        addOrUpdateBtn.addActionListener(e -> new ManageFees().setVisible(true));
 
         // 2️⃣ View status of a single student
         viewStatusBtn.addActionListener(e -> new StudentFeesStatus().setVisible(true));

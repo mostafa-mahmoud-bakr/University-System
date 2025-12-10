@@ -2,7 +2,6 @@
 
 package com.mycompany.universitysystem.auth;
 
-import com.mycompany.universitysystem.admin.AdminDashboard;
 import com.mycompany.universitysystem.student.StudentDashboard;
 import com.mycompany.universitysystem.instructor.InstructorDashboard;
 
@@ -45,7 +44,6 @@ public class LoginForm extends JFrame {
                 case "Admin":
                     if (authService.loginAdmin(username, password)) {
                         JOptionPane.showMessageDialog(this, "Admin Login Successful!");
-                        new AdminDashboard().setVisible(true);
                         dispose();
                     } else {
                         JOptionPane.showMessageDialog(this, "Invalid Admin Credentials!");

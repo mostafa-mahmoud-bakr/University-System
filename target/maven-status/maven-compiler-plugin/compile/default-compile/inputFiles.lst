@@ -1,9 +1,3 @@
-D:\java\UniversitySystem\src\main\java\com\mycompany\universitysystem\admin\Admin.java
-D:\java\UniversitySystem\src\main\java\com\mycompany\universitysystem\admin\AdminDashboard.java
-D:\java\UniversitySystem\src\main\java\com\mycompany\universitysystem\admin\ManageCourses.java
-D:\java\UniversitySystem\src\main\java\com\mycompany\universitysystem\admin\ManageFees.java
-D:\java\UniversitySystem\src\main\java\com\mycompany\universitysystem\admin\ManageInstructors.java
-D:\java\UniversitySystem\src\main\java\com\mycompany\universitysystem\admin\ManageStudents.java
 D:\java\UniversitySystem\src\main\java\com\mycompany\universitysystem\auth\AuthService.java
 D:\java\UniversitySystem\src\main\java\com\mycompany\universitysystem\auth\LoginForm.java
 D:\java\UniversitySystem\src\main\java\com\mycompany\universitysystem\course\Course.java
